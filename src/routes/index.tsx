@@ -17,8 +17,8 @@ const data = rawData as Row[];
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "CyberShield — Threat Detection Dashboard" },
-      { name: "description", content: "Analytical dashboard for state-wise cybercrime & threat detection across India." },
+      { title: "Analytics Based Cyber Threat Detection System" },
+      { name: "description", content: "Python-powered analytical dashboard for state-wise cyber threat detection across India using NCRB data." },
     ],
   }),
   component: Dashboard,
