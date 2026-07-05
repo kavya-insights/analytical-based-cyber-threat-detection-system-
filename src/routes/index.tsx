@@ -328,7 +328,7 @@ function Dashboard() {
         </section>
 
         <footer className="mt-6 border-t border-white/10 pt-4 text-center text-[10px] uppercase tracking-widest text-slate-600">
-          Source: NCRB State-wise Cyber Crime dataset · CyberShield Analytical Dashboard
+          Source: NCRB State-wise Cyber Crime dataset · Processed with Python (pandas) · Analytics Based Cyber Threat Detection System
         </footer>
       </div>
     </div>
