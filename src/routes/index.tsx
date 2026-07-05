@@ -7,7 +7,7 @@ import {
 } from "recharts";
 import {
   Shield, AlertTriangle, Lock, Activity, Search,
-  TrendingUp, MapPin, Bug,
+  TrendingUp, MapPin, Bug, FileDown,
 } from "lucide-react";
 import rawData from "@/data/cyber.json";
 
