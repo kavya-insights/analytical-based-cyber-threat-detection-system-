@@ -124,6 +124,14 @@ function Dashboard() {
             </div>
           </div>
           <div className="flex items-center gap-4">
+            <a
+              href="/reports/cyber-threat-report.pdf"
+              download="cyber-threat-report.pdf"
+              className="group inline-flex items-center gap-2 rounded-md border border-[#00e5ff]/40 bg-[#00e5ff]/10 px-3 py-2 text-xs font-bold uppercase tracking-widest text-[#00e5ff] transition hover:bg-[#00e5ff]/20 hover:shadow-[0_0_20px_rgba(0,229,255,0.4)]"
+            >
+              <FileDown className="h-4 w-4" />
+              Generate PDF Report
+            </a>
             <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#00e676]">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#00e676] opacity-75" />
