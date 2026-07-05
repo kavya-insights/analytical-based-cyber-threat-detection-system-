@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Analytics Based Cyber Threat Detection System" },
+      { name: "description", content: "Python-powered analytical dashboard for state-wise cyber threat detection across India using NCRB data." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Analytics Based Cyber Threat Detection System" },
+      { property: "og:description", content: "Python-powered analytical dashboard for state-wise cyber threat detection across India using NCRB data." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Analytics Based Cyber Threat Detection System" },
+      { name: "twitter:description", content: "Python-powered analytical dashboard for state-wise cyber threat detection across India using NCRB data." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bda8feab-d791-4482-a488-f9230d3e2f10/id-preview-d0755221--9d0e34e0-84f4-441f-89df-33ee1858766d.lovable.app-1783260665016.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bda8feab-d791-4482-a488-f9230d3e2f10/id-preview-d0755221--9d0e34e0-84f4-441f-89df-33ee1858766d.lovable.app-1783260665016.png" },
     ],
     links: [
       {
