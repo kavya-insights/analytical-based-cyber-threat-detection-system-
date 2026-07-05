@@ -117,9 +117,9 @@ function Dashboard() {
               <Shield className="h-6 w-6" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-widest text-[#00e5ff]">CYBERSHIELD // THREAT INTEL</h1>
+              <h1 className="text-xl font-bold tracking-widest text-[#00e5ff]">ANALYTICS BASED CYBER THREAT DETECTION SYSTEM</h1>
               <p className="text-xs uppercase tracking-widest text-slate-400">
-                Analytical Cyber Threat Detection · India State-wise NCRB Dataset
+                Python · Pandas · Analytical Pipeline · NCRB State-wise Dataset
               </p>
             </div>
           </div>
