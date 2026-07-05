@@ -17,8 +17,8 @@ const data = rawData as Row[];
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "CyberShield — Threat Detection Dashboard" },
-      { name: "description", content: "Analytical dashboard for state-wise cybercrime & threat detection across India." },
+      { title: "Analytics Based Cyber Threat Detection System" },
+      { name: "description", content: "Python-powered analytical dashboard for state-wise cyber threat detection across India using NCRB data." },
     ],
   }),
   component: Dashboard,
@@ -117,9 +117,9 @@ function Dashboard() {
               <Shield className="h-6 w-6" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-widest text-[#00e5ff]">CYBERSHIELD // THREAT INTEL</h1>
+              <h1 className="text-xl font-bold tracking-widest text-[#00e5ff]">ANALYTICS BASED CYBER THREAT DETECTION SYSTEM</h1>
               <p className="text-xs uppercase tracking-widest text-slate-400">
-                Analytical Cyber Threat Detection · India State-wise NCRB Dataset
+                Python · Pandas · Analytical Pipeline · NCRB State-wise Dataset
               </p>
             </div>
           </div>
@@ -328,7 +328,7 @@ function Dashboard() {
         </section>
 
         <footer className="mt-6 border-t border-white/10 pt-4 text-center text-[10px] uppercase tracking-widest text-slate-600">
-          Source: NCRB State-wise Cyber Crime dataset · CyberShield Analytical Dashboard
+          Source: NCRB State-wise Cyber Crime dataset · Processed with Python (pandas) · Analytics Based Cyber Threat Detection System
         </footer>
       </div>
     </div>
